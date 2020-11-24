@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 main {
-    height: 1600px;
+    height: 2100px;
 }
 
 main h1 {
@@ -61,6 +61,8 @@ main h1 {
     background: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 } .txtContainer {
+    position: relative;
+    right: 45px;
     padding-left: 300px;
     padding-top: 20px;
     width: 700px;
@@ -100,7 +102,6 @@ footer p {
 
 .left {
     float: left;
-    padding-right: 70px;
     position: relative;
     top: 40px;
     right: -40px;
