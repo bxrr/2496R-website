@@ -1,3 +1,20 @@
+* {
+    animation-name:come-in;
+    animation-duration: 2s;
+}
+
+@keyframes come-in {
+    0% {
+        margin-bottom: 50px;
+        opacity: 0%;
+    }
+
+    100% {
+
+    }
+}
+
+
 body {
     background-image: url("Images/RobotFullView3.jpg");
     background-size: cover;
@@ -69,9 +86,6 @@ main h1 {
 } .paragraph {
     padding-right: 50px;
 }
-
-#BrandonXu {
-} 
 
 #Melody {
     position: relative;
