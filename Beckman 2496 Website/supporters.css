@@ -1,0 +1,192 @@
+*{
+    font-family: Comfortaa, Helvetica, sans-serif;
+    animation-name:come-in;
+    animation-duration: 2s;
+}
+
+@keyframes come-in {
+    0% {
+        margin-bottom:50px;
+        opacity:0%;
+    }
+
+    100%{
+        
+    }
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url("Images/RobotFullView3.jpg");
+    background-size: cover;
+    color:lightcyan;
+}
+
+header {
+    height: 75px;
+    margin-bottom: 35px;
+    color:white;
+}
+
+header h1 {
+    position: relative;
+    top: 0px;
+}
+
+header #img1 {
+    position: relative;
+    top: -105px;
+    left: 725px;
+}
+
+nav {
+    height: 75px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+header h1 {
+    text-align: center;
+    font-family: Bahnschrift, Comfortaa, Helvetica, sans-serif;
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+nav ul li {
+    color:white;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+
+footer {
+    height:80px;
+    border-radius:15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+footer p {
+    font-family: Comfortaa, Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+}
+
+.line {
+    background-color:lightcyan;
+    height:5px;
+    width:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.miniheader {
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+    color:lightcyan;
+    font-size:35px;
+}
+
+main {
+    height: 1150px;
+}
+
+main h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#intro {
+    border-radius:25px;
+    padding:10px;
+    margin-left:25%;
+    margin-right:25%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(37, 134, 179);
+    margin-bottom:25px;
+    margin-top:15px;
+}
+
+.left {
+    float: left;
+    padding-right: 20px;    
+    position: relative;
+    top: -50px;
+    left: 30px; 
+}
+
+.imgContainer {
+    width: 1024px;
+    height: 225px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 30px;
+    margin-bottom: 20px;
+} 
+
+.imgContainer h1 {
+    position: relative;
+    top: -30px;
+}
+
+.txtContainer {
+    width:800px;
+    position:relative;
+    top: -35px;
+    left:55px;
+    margin-left:auto;
+    margin-right:auto;
+} 
+
+.txtContainer p {
+    line-height: 2;
+    font-size: 17px;
+}
+/* 
+#Ireland {
+    position: relative;
+    top: 1px;
+}
+
+#Lund {
+    position: relative;
+    top: 1px;
+} */
+
+#sponsors {
+    padding:15px;
+    border-radius:15px;
+    color:black;
+    background-color:#f8db36;
+}
+
+.tab {
+    display: inline;
+    margin-left: 40px;
+}   
