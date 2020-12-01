@@ -33,6 +33,17 @@ header {
     color:white;
 }
 
+header h1 {
+    position: relative;
+    top: 0px;
+}
+
+header #img1 {
+    position: relative;
+    top: -105px;
+    left: 725px;
+}
+
 nav {
     height: 75px;
     text-align: center;
